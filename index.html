@@ -319,7 +319,7 @@ body.locked .container{visibility:hidden}
       </div>
 
       <button class="login-btn" type="submit">⚡ LOGIN TO PANEL</button>
-      <div class="login-error" id="loginError">✕ ACCESS DENIED — INVALID USERNAME OR PASSWORD</div>
+      <div class="login-error" id="loginError">✕ ACCESS DENIED — MULTIPLE DEVICE DETECTED ( POSIBLE LOCK ) </div>
       <div class="login-status" id="loginStatus">SYSTEM LOCKED • AUTHENTICATION REQUIRED</div>
     </form>
   </div>
@@ -732,8 +732,8 @@ document.getElementById("threads").addEventListener("input",function(){
 
 /* === LOGIN SYSTEM ADD-ON === */
 (function(){
-  const LOGIN_USERNAME = "shin";
-  const LOGIN_PASSWORD = "12345mass";
+  const LOGIN_USERNAME = "shin11";
+  const LOGIN_PASSWORD = "0012345mass";
 
   const form = document.getElementById("loginForm");
   const user = document.getElementById("loginUsername");
